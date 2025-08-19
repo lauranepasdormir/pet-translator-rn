@@ -61,4 +61,5 @@ ios/build/
 .idea/
 .vscode/
 
+pet-audio-backend/.venv
 EOF

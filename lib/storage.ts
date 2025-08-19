@@ -20,7 +20,6 @@ export async function addEvent(e: EventItem) {
   return list;
 }
 
-// ⭐ 新增：清空所有事件
 export async function clearEvents() {
   await AsyncStorage.removeItem(KEY);
 }
